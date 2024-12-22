@@ -1,0 +1,12 @@
+Eduardo, 05/12/2000, eduardo@gmail.com
+sara, 06/12/2000, sara@gmail.com
+karla, 07/12/2000, karla@gmail.com
+victor, 08/12/2000, victor@gmail.com
+karen, 09/12/2000, karen@gmail.com
+paul, 10/12/2000, paul@gmail.com
+zero, 11/12/2000, zero@gmail.com
+pedro, 12/12/2000, pedro@gmail.com
+saul, 13/12/2000, saul@gmail.com
+leo, 14/12/2000, leo@gmail.com
+kin, 15/12/2000, kin@gmail.com
+ken, 16/12/1990, ken@gmail.com

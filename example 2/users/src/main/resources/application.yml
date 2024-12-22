@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: catalogs
+  config: 
+    name: ${spring.application.name}
+  main: 
+    allow-bean-definition-overriding: true
