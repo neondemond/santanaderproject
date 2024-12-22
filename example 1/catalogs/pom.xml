@@ -139,6 +139,60 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+		
+			<plugin>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.8.7</version>
+			<executions>
+				<execution>
+					<goals>
+						<goal>prepare-agent</goal>
+						<goal>report</goal>
+					</goals>
+				</execution>
+			</executions>
+			</plugin>
+			
+			<plugin>
+				<groupId>com.github.spotbugs</groupId>
+				<artifactId>spotbugs-maven-plugin</artifactId>
+				<version>4.0.6</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>spotbugs</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<plugin>
+				<groupId>com.puppycrawl.tools</groupId>
+				<artifactId>checkstyle-maven-plugin</artifactId>
+				<version>10.4</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>checkstyle</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.7</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>prepare-agent</goal>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 	<repositories>
@@ -152,58 +206,5 @@
 		</repository>
 	</repositories>
 
-	<plugin>
-	    <groupId>org.jacoco</groupId>
-	    <artifactId>jacoco-maven-plugin</artifactId>
-	    <version>0.8.7</version>
-	    <executions>
-	        <execution>
-	            <goals>
-	                <goal>prepare-agent</goal>
-	                <goal>report</goal>
-	            </goals>
-	        </execution>
-	    </executions>
-	</plugin>
 	
-	<plugin>
-	    <groupId>com.github.spotbugs</groupId>
-	    <artifactId>spotbugs-maven-plugin</artifactId>
-	    <version>4.0.6</version>
-	    <executions>
-	        <execution>
-	            <goals>
-	                <goal>spotbugs</goal>
-	            </goals>
-	        </execution>
-	    </executions>
-	</plugin>
-	
-	<plugin>
-	    <groupId>com.puppycrawl.tools</groupId>
-	    <artifactId>checkstyle-maven-plugin</artifactId>
-	    <version>10.4</version>
-	    <executions>
-	        <execution>
-	            <goals>
-	                <goal>checkstyle</goal>
-	            </goals>
-	        </execution>
-	    </executions>
-	</plugin>
-
-	<plugin>
-	    <groupId>org.jacoco</groupId>
-	    <artifactId>jacoco-maven-plugin</artifactId>
-	    <version>0.8.7</version>
-	    <executions>
-	        <execution>
-	            <goals>
-	                <goal>prepare-agent</goal>
-	                <goal>report</goal>
-	            </goals>
-	        </execution>
-	    </executions>
-	</plugin>
-
 </project>
