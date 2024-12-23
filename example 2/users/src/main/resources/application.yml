@@ -1,6 +1,6 @@
 spring:
   application:
-    name: catalogs
+    name: users
   config: 
     name: ${spring.application.name}
   main: 
